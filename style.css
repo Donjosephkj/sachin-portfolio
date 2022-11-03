@@ -1,0 +1,53 @@
+body{
+    margin: 0;
+    text-align: center;
+    /* background-image: linear-gradient(to right,rgb(202, 202, 202),rgb(243, 243, 243),rgb(202, 202, 202)); */
+    font-family: 'Poppins', sans-serif;
+    color: rgb(46, 46, 46);background-image: url('./download.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.menu{
+    position: fixed;
+    background-color: rgb(175, 174, 174);
+    width: 100%;
+    margin-top: 0px;
+    height: 40px;
+    padding-top: 20px;
+}
+.links{
+    display: inline;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+a{
+    color: rgb(56, 56, 56);
+    text-decoration: none;
+    text-shadow: 0px 0px 10px rgb(255, 255, 255);
+}
+a:hover{
+    font-size: larger;
+    text-decoration: underline;
+}
+html{
+    scroll-behavior: smooth;
+}
+.profile{
+    margin-top: 100px;
+}
+#name{
+    color: black;
+    font-size: 30px;
+}
+.line{
+    width: 80px;
+    height: 5px;
+    background-color: black;
+    margin-left: auto;
+    margin-right: auto;
+}
+.contact_1 h3{
+    display: inline;
+}
+
+    
